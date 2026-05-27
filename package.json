@@ -1,0 +1,29 @@
+{
+  "name": "personal-homepage",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Personal homepage — a clean, minimal static site built with vanilla HTML5, CSS3, and ES6 modules.",
+  "main": "index.html",
+  "scripts": {
+    "lint": "eslint js/**/*.js",
+    "format": "prettier --write \"**/*.{html,css,js}\"",
+    "format:check": "prettier --check \"**/*.{html,css,js}\"",
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "personal-homepage",
+    "portfolio",
+    "vanilla-js",
+    "es6-modules"
+  ],
+  "author": "Your Name <you@email.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "eslint": "^9.39.4",
+    "eslint-plugin-prettier": "^5.5.5",
+    "globals": "^15.14.0",
+    "prettier": "^3.8.3",
+    "serve": "^14.2.4"
+  }
+}

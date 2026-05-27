@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Alex Perkins" />
+    <meta
+      name="description"
+      content="Alex's Homepage — Finance / Systems Manager and Lifelong Learner."
+    />
+    <meta name="theme-color" content="#f5f4f0" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⭐</text></svg>"
+    />
+    <title>Alex Perkins — Home</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=DM+Mono:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="page-home">
+    <header class="site-header">
+      <nav class="nav-bar" aria-label="Main navigation">
+        <span class="nav-logo">AP</span>
+        <ul class="nav-links" role="list">
+          <li><a class="nav-link nav-link--active" href="/">Home</a></li>
+          <li><a class="nav-link" href="./pages/about.html">About</a></li>
+          <li><a class="nav-link" href="./pages/projects.html">Projects</a></li>
+        </ul>
+        <button
+          class="nav-menu-toggle"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          <span class="nav-menu-icon"></span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <img
+          class="hero-profile-img"
+          src="./images/profile.png"
+          alt="Alex's profile photo"
+        />
+        <div class="hero-content">
+          <p class="hero-label" id="hero-label">
+            IT / Finance Manager &amp; Student
+          </p>
+          <h1 class="hero-headline">
+            Hi, I&rsquo;m<br />
+            <em>Alex Perkins.</em>
+          </h1>
+          <p class="hero-tagline">
+            I connect systems and data with stakeholders' needs and think
+            carefully about how technology exponentially expands our value-added
+            capabilities.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn--primary" href="./pages/projects.html"
+              >View my work</a
+            >
+            <a class="btn btn--ghost" href="./pages/about.html"
+              >Learn about me</a
+            >
+          </div>
+        </div>
+        <div class="hero-decoration" aria-hidden="true">
+          <div class="decoration-ring decoration-ring--large"></div>
+          <div class="decoration-ring decoration-ring--small"></div>
+          <div class="decoration-dot"></div>
+        </div>
+      </section>
+
+      <section class="section-featured">
+        <div class="container">
+          <h2 class="section-title">Selected Work</h2>
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-card-top">
+                <span class="project-tag">Mobile</span>
+                <span class="project-year">2025</span>
+              </div>
+              <h3 class="project-card-title">Roommate Finder App</h3>
+              <p class="project-card-desc">
+                A full-stack mobile application featuring real-time data storage
+                and location-based search logic using Java, Firebase, and Google
+                Maps API.
+              </p>
+              <a
+                class="project-card-link"
+                href="./pages/projects.html"
+                aria-label="View Roommate Finder App Project"
+              >
+                View &rarr;
+              </a>
+            </article>
+            <article class="project-card">
+              <div class="project-card-top">
+                <span class="project-tag">Software</span>
+                <span class="project-year">2024</span>
+              </div>
+              <h3 class="project-card-title">Tic-Tac-Toe GUI Game</h3>
+              <p class="project-card-desc">
+                GUI game utilizing MVC design and SOLID principles and JUnit
+                testing for robust software architecture using Java and Swing.
+              </p>
+              <a
+                class="project-card-link"
+                href="./pages/projects.html"
+                aria-label="View Tic-Tac-Toe Game Project"
+              >
+                View &rarr;
+              </a>
+            </article>
+            <article class="project-card">
+              <div class="project-card-top">
+                <span class="project-tag">Web</span>
+                <span class="project-year">2023</span>
+              </div>
+              <h3 class="project-card-title">Song Finder Web App</h3>
+              <p class="project-card-desc">
+                A full-stack song discovery web app where users can search by
+                artist, browse by tag, and explore popular tags in real time.
+                Built with Python, Flask, and Bootstrap with features including
+                clickable song info and adding songs to library.
+              </p>
+              <a
+                class="project-card-link"
+                href="./pages/projects.html"
+                aria-label="View Song Finder Web App Project"
+              >
+                View &rarr;
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-about-teaser">
+        <div class="container container--narrow">
+          <blockquote class="about-quote">
+            <p>
+              &ldquo;I&rsquo;m currently a graduate student studying computer
+              science at Northeastern University. I enjoy building and designing
+              interactive experiences that provide useful insights or tell a
+              story.&rdquo;
+            </p>
+            <footer class="about-quote-footer">
+              <a class="btn btn--ghost" href="./pages/about.html"
+                >Read more about me</a
+              >
+            </footer>
+          </blockquote>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p class="footer-copy">
+          &copy; 2025 Alex Perkins. All rights reserved.
+        </p>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a class="footer-link" href="mailto:perkins.ale@northeastern.edu"
+            >perkins.ale@northeastern.edu</a
+          >
+          <a
+            class="footer-link"
+            href="https://github.com/alexanderperkins/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub</a
+          >
+          <a
+            class="footer-link"
+            href="https://www.linkedin.com/in/alexandercperkins/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >LinkedIn</a
+          >
+        </nav>
+      </div>
+    </footer>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
