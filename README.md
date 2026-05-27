@@ -37,7 +37,7 @@ Implement homepage using plain HTML5, CSS3 and ES6+. Should be a front-end only 
 
 ## Screenshot
 
-![Homepage screenshot](./images/homepageimage.jpg)
+![Homepage screenshot](https://image.thum.io/get/https://alexperkinshome.netlify.app/)
 
 ---
 
